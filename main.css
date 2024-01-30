@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -14,4 +15,20 @@ li {
 
 body{
     background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    box-shadow: 5px 5px hsl(0, 0%, 7%);
+    border: 1px solid hsl(0, 0%, 7%);
 }
